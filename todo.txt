@@ -1,0 +1,33 @@
+--- Fix multiple duplicate messages received - seemed to be caused by sending presence to other clients after receiving each message --done 
+--- add connect to server with just username
+--- add sending messages to each user --WIP
+    --- on send message , send the message to your other clients
+--- persist redux state - https://www.npmjs.com/package/redux-persist
+--- xmpp.subscribe
+--- channels
+--- SASL
+--- Message persistent storage
+--- Group chat
+
+
+--- https://www.pracmed.co.za/billing/
+
+    // this.xmpp.caller.set(
+      //   xml("enable", "urn:xmpp:carbons:2"),
+      //   //to, // "to" attribute, optional
+      //  // timeout, // 30 seconds timeout - default
+      // );
+      // await this.xmpp.iqCallee.set(xml("enable", "urn:xmpp:carbons:2"));
+
+     
+        // await xml("enable", { xmlns: "urn:xmpp:carbons:2" });
+
+      // const message = xml(
+      //   "message",
+      //   { type: "set", from: 'user1@localhost' },
+      //   xml("enable", { xmlns: "urn:xmpp:carbons:2" }),
+      // );
+      //   let test =  await this.xmpp.iqCallee.set("urn:xmpp:carbons:2", "enable", (ctx) => {
+      // });
+
+
